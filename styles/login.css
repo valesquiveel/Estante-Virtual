@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Joti+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Joti One';
+}
+
+body {
+    background-image: url(../images/image\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#pagina {
+    width: 100%;
+    height: auto;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+#logo {
+    width: 103px;
+    height: 103px;
+    background-image: url(../images/Diseño_sin_título__1_-removebg-preview\ 1.svg);
+    margin-left: 70px;
+}
+
+#LeC {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 423px;
+    height: 62px;
+    border-radius: 10px;
+    background: #44342F;
+    font-size: 28px;
+    margin-right: 86px;
+}
+
+#login-header {
+    text-decoration: none;
+    color: #fff;
+}
+
+#cadastro-header {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* main */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#fundo-login {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;;
+    background: linear-gradient(108deg, #DDB38D 0%, rgba(221, 179, 141, 0.76) 77.08%, rgba(221, 179, 141, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row-reverse;
+} 
+
+#image-login {
+    display: flex;
+    justify-content: flex-end;
+    height: 700px;
+}
+
+#formulario-login {    
+    width: 70%;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#titulo-login {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 51px;
+    margin-bottom: 19px;
+}
+
+#LeS {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.preencher {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 23px;
+}
+
+#login, #senha {
+    width: 100%;
+    height: 61px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-size: 23px;
+}
+
+#login {
+    margin-bottom: 40px;
+}
+
+#login:focus, #senha:focus {
+    outline: 5px rgb(92, 92, 92);
+    background-color: #ffffff1e;
+}
+
+#esqueci {
+    text-align: right;
+}
+
+#esqueci-senha {
+    text-decoration: none;
+    margin: 0;
+    color: #754C4C;
+}
+
+#botao-login {
+    text-align: center;
+}
+
+#fazer-login {
+    width: 285px;
+    height: 62px;
+    border-radius: 10px;
+    background: #44342F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-size: 28px;
+    border: none;
+    margin-top: 39px;
+}
+
+#fazer-login:hover {
+    background-color: #f7cdab;
+    color: #44342F;
+    cursor: pointer;
+}
+
+#cadastrar-fim {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 53px;
+}
+
+#novo {
+    margin-bottom: 24px;
+}
+
+#cadastro-fim {
+    text-decoration: none;
+    color: #754C4C;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+}
