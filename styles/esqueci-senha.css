@@ -1,0 +1,125 @@
+/* main */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#fundo-recuperacao {
+    width: 85%;
+    height: auto;
+    border-radius: 10px;;
+    background: linear-gradient(180deg, #DDB38D 0%, rgba(221, 179, 141, 0.92) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo-recuperacao {
+    text-align: center;
+    font-size: 90px;
+    margin-top: 51px;
+    margin-bottom: 39px;
+}
+
+#info-inserir-email {
+    width: 50%;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* formulario da recuperação */
+
+#formulario-recuperacao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* campo */
+
+#preencher {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+#email {
+    width: 100%;
+    height: 61px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+#email:focus{
+    outline: 5px rgb(92, 92, 92);
+    background-color: #ffffff1e;
+}
+
+/* botao para enviar link */
+
+#botao-enviar-link {
+    text-align: center;
+}
+
+#enviar-link {
+    width: 285px;
+    height: 62px;
+    border-radius: 10px;
+    background: #44342F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-size: 28px;
+    border: none;
+}
+
+/* fazer login ou cadastrar no fim da pagina */
+
+#LeC-fim {
+    font-size: 27px;
+    text-align: center;
+    margin-top: 33px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#ou {
+    margin-bottom: 14px;
+}
+
+#cadastrar-fim {
+    text-decoration: none;
+    color: #6B2929;
+}
+
+#voltar-login-fim {
+    color: #FFF;
+    margin-top: 60px;
+    text-decoration: none;
+}
+
+/* media mobile */
+
+@media screen and (max-width : 768px) {
+    #titulo-recuperacao {
+        font-size: 75px;
+    }
+
+    #info-inserir-email {
+        width: 90%;
+        font-size: 30px;
+    }
+
+    #preencher {
+        width: 70%;
+    }
+}

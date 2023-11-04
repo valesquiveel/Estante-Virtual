@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Estante Virtual</title>
     <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/geral-cadastro-login-esqueci.css">
+    <link rel="stylesheet" href="../styles/@media-geral.css" media="screen and (max-width : 768px)">
+    <link rel="shortcut icon" href="../images/Diseño_sin_título__1_-removebg-preview 1.svg" type="image/x-icon">
 </head>
 <body>
     <div id="pagina">
-
         <!-- Header -->
         <header>
-        <div id="logo">
-        </div>
+            <div id="logo"></div>
 
-        <div id="LeC">
-            <a id="login-header" href="#">Login</a>
-            <a id="cadastro-header" href="#">Cadastre-se</a>
-        </div>
+            <!-- login e cadastro do header -->
+            <div id="LeC">
+                <a id="login-header" href="login.html">Login</a>
+                <a id="cadastro-header" href="cadastro.html">Cadastre-se</a>
+            </div>
         </header>
 
         <!-- Main -->
@@ -27,35 +29,41 @@
                     <img src="../images/Diseño sin título (2) 1.png" alt="">
                 </div>
 
+                <!-- formulario do login -->
                 <div id="formulario-login">
                     <form action="">
                         <legend id="titulo-login">LOGIN</legend>
+
+                        <!-- Login e senha -->
                         <div id="LeS">
                             <div class="preencher">
                                 <label for="login">Nome de Usuário ou E-mail</label>
-                                <input type="text" name="login" id="login">
+                                <input type="text" name="login" id="login" required maxlength minlength="5">
                             </div>
 
                             <div class="preencher">
                                 <label for="senha">Senha</label>
-                                <input type="password" name="senha" id="senha">
-                                <label id="esqueci" for=""><a id="esqueci-senha" href="">Esqueci a senha</a></label>
+                                <input type="password" name="senha" id="senha" required maxlength minlength="5">
+                                <label id="esqueci" for=""><a id="esqueci-senha" href="esqueci-senha.html">Esqueci a senha</a></label>
                             </div>
                         </div>
 
+                        <!-- botão fazer login -->
                         <div id="botao-login">
                             <input type="submit" value="Fazer Login" id="fazer-login">
                         </div>
-
+                
+                        <!-- ir para o cadastro no fim da pagina -->
                         <div id="cadastrar-fim">
                             <p id="novo">É novo por aqui?</p>
-                            <a id="cadastro-fim" href="#">Cadastre-se</a>
+                            <a id="cadastro-fim" href="cadastro.html">Cadastre-se</a>
                         </div>
                     </form>
                 </div>
             </div>
         </main>
 
+        <!-- footer -->
         <footer></footer>
     </div>
 </body>

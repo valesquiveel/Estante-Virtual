@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Estante Virtual</title>
+    <link rel="stylesheet" href="../styles/cadastro.css">
+    <link rel="stylesheet" href="../styles/geral-cadastro-login-esqueci.css">
+    <link rel="stylesheet" href="../styles/@media-geral.css" media="screen and (max-width : 768px)">
+    <link rel="shortcut icon" href="../images/Diseño_sin_título__1_-removebg-preview 1.svg" type="image/x-icon">
+</head>
+<body>
+    <div id="pagina">
+        <!-- Header -->
+        <header>
+            <div id="logo"></div>
+            <!-- login e cadastro do header -->
+            <div id="LeC">
+                <a id="login-header" href="login.html">Login</a>
+                <a id="cadastro-header" href="cadastro.html">Cadastre-se</a>
+            </div>
+        </header>
+
+        <!-- Main -->
+        <main>
+             <!-- fundo do cadastro -->
+                <form id="fundo-cadastro" action="">
+                    <legend id="titulo-cadastro">CADASTRO</legend>
+                    <div id="formulario-cadastro">
+
+                        <!-- formulario do cadastro -->
+                        <div class="preencher">
+                             <label for="usuario">Crie um nome de Usuário</label>
+                             <input type="text" name="usuario" id="usuario" required maxlength minlength="5">
+                        </div>
+
+                        <div class="preencher">
+                            <label for="email">Insira seu e-mail</label>
+                            <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com" required maxlength minlength="5">
+                       </div>
+
+                       <div class="preencher">
+                        <label for="confirmar-email">Confirme seu e-mail</label>
+                        <input type="email" name="email" id="confirmar-email" placeholder="exemplo@exemplo.com" required maxlength minlength="5">
+                        </div>
+
+                        <div class="preencher">
+                            <label for="senha">Crie uma senha</label>
+                            <input type="password" name="senha" id="senha" required maxlength minlength="5">
+                        </div>
+
+                        <div class="preencher">
+                            <label for="confirmar-senha">Confirme sua senha</label>
+                            <input type="password" name="senha1" id="confirmar-senha" required maxlength minlength="5">
+                        </div>
+                    </div>
+
+                    <!-- botão para cadastrar -->
+                    <div id="botao-cadastrar">
+                            <input type="submit" value="Cadastrar" id="cadastrar">
+                    </div>
+
+                    <!-- fazer login no fim da pagina -->
+                    <div id="login-fim">
+                        <p id="ja">Já se cadastrou?</p>
+                        <a id="fazer-login-fim" href="login.html">Faça Login</a>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <!-- footer -->
+        <footer></footer>
+    </div>
+</body>
+</html>

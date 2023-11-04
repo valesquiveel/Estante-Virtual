@@ -1,0 +1,42 @@
+   /* MOBILE */
+
+/* header geral */
+
+#logo {
+    width: 90px;
+    height: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}
+
+/* Login e Cadastro do header */
+
+#LeC {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    font-size: 23px;
+}
+
+/* body geral */
+
+body {
+    background-image: none;
+    background-color: #44342F;
+}
+
+/* fundo geral */
+
+#fundo-login, #fundo-cadastro, #fundo-recuperacao {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #DDB38D 0%, rgba(221, 179, 141, 0.70) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

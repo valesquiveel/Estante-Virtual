@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Inter:wght@400;500;600&family=Joti+One&family=Londrina+Solid&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Londrina Solid';
+}
+
+body {
+    background-image: url(../images/image\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#pagina {
+    width: 100%;
+    height: auto;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+#logo {
+    width: 103px;
+    height: 103px;
+    background-image: url(../images/Diseño_sin_título__1_-removebg-preview\ 1.svg);
+    margin-left: 70px;
+}
+
+/* Login e Cadastro do header */
+
+#LeC {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 423px;
+    height: 62px;
+    border-radius: 10px;
+    background: #44342F;
+    font-size: 28px;
+    margin-right: 86px;
+}
+
+#login-header {
+    text-decoration: none;
+    color: #fff;
+}
+
+#cadastro-header {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 100px;
+}
+

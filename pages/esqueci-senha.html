@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Senha Estante Virtual</title>
+    <link rel="stylesheet" href="../styles/esqueci-senha.css">
+    <link rel="stylesheet" href="../styles/geral-cadastro-login-esqueci.css">
+    <link rel="stylesheet" href="../styles/@media-geral.css" media="screen and (max-width : 768px)">
+    <link rel="shortcut icon" href="../images/Diseño_sin_título__1_-removebg-preview 1.svg" type="image/x-icon">
+</head>
+<body>
+    <div id="pagina">
+        <!-- Header -->
+        <header>
+            <div id="logo"></div>
+            <!-- login e cadastro do header -->
+            <div id="LeC">
+                <a id="login-header" href="login.html">Login</a>
+                <a id="cadastro-header" href="cadastro.html">Cadastre-se</a>
+            </div>
+        </header>
+
+        <!-- Main -->
+        <main>
+             <!-- fundo da recuperação -->
+                <form id="fundo-recuperacao" action="">
+                    <legend id="titulo-recuperacao">ESQUECEU A SENHA?</legend>
+                    <p id="info-inserir-email">Insira seu E-mail. Enviaremos um link para você voltar a acessar a sua conta.</p>
+
+                    <div id="formulario-recuperacao">
+                        <!-- formulario da recuperacao -->
+
+                        <div id="preencher">
+                            <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com" required maxlength minlength="5">
+                        </div>
+                    </div>    
+
+                    <!-- botão para enviar link -->
+                    <div id="botao-enviar-link">
+                            <input type="submit" value="Enviar Link" id="enviar-link">
+                    </div>
+                    
+                    <!-- fazer login ou cadastrar no fim da pagina -->
+                    <div id="LeC-fim">
+                        <p id="ou">Ou</p>
+                        <a id="cadastrar-fim" href="cadastro.html">Cadastre-se</a>
+                        <a id="voltar-login-fim" href="login.html">VOLTAR AO LOGIN</a>
+                    </div>
+                </form>
+        </main>
+
+        <!-- footer -->
+        <footer></footer>
+    </div>
+</body>
+</html>
