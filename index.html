@@ -6,6 +6,7 @@
     <title>Bem-vindo(a) ao seu Estante Virtual</title>
     <link rel="shortcut icon" href="../images/Diseño_sin_título__1_-removebg-preview 1.svg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
     <div id="root" class="container-fluid p-0 m-0">
@@ -14,24 +15,24 @@
         <header>
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar w/ text</a>
+                    <a class="navbar-brand" href="#"><img id="logo" src="images/Diseño_sin_título__1_-removebg-preview 1.svg" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#">Sobre Nós</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link" href="#">Catálogo</a>
                             </li>
                         </ul>
                     <span class="navbar-text">
-                      Navbar text with an inline element
+                      <img style="margin-right: 3rem;" src="images/account.png" alt="">
                     </span>
                   </div>
                 </div>
@@ -42,112 +43,138 @@
         <!-- main inicio -->
         <main>
             <!-- banner do home -->
-            <section id="banner-homeSection">
-                <div id="img-banner"></div>
+            <section class="container-fluid m-0 mt-5 p-0 text-center" id="banner-homeSection">
+                <img id="img-banner" src="images/banner-login 1.png">
             </section>
 
-            <!-- categorias e generos -->
-            <section id="categoriasSection">
-                <h1 id="titulo-categorias">Categorias e generos</h1>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </section>
-
+            
             <!-- Livros mais vendidos -->
-            <section id="mais-vendidosSection">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Launch demo modal
-                        </button>
+            <section id="mais-vendidosSection" class="container-fluid m-0 mt-5 p-0 text-center">
+                <h1 id="titulo-mais-vendidos" class="p-5">LIVROS MAIS VENDIDOS</h1>
+                <div id="cards" class="d-flex justify-content-center gap-5 pb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/livro1-home.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Titulo Livro</h5>
+                            <p class="card-text">Autor Livro</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                R$ 10,34
+                            </button>
+                        </div>
                     </div>
-                  </div>
-
-                  <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Launch demo modal
-                        </button>
+                      <div class="card" style="width: 18rem;">
+                        <img src="images/livro2-home.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Titulo Livro</h5>
+                            <p class="card-text">Autor Livro</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                R$ 10,34
+                            </button>
+                        </div>
                     </div>
-                  </div>
-
-                  <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Launch demo modal
-                        </button>
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/livro3-home.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Titulo Livro</h5>
+                            <p class="card-text">Autor Livro</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                R$ 10,34
+                            </button>
+                        </div>
                     </div>
-                  </div>
-
-                  <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Launch demo modal
-                        </button>
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/livro4-home.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Titulo Livro</h5>
+                            <p class="card-text">Autor Livro</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                R$ 10,34
+                            </button>
+                        </div>
                     </div>
-                  </div>
+                </div>
+            </section>
+            
+            <!-- categorias e generos -->
+            <section class="container-fluid m-0 mt-5 p-0" id="categoriasSection">
+                <h1 id="titulo-categorias" class="text-center">CATEGORIAS e GÊNEROS</h1>
+                <div id="categorias1" class="d-flex justify-content-center justify-content-around">
+                    <ul>
+                        <li>Ação e aventura</li>
+                        <li>Ficção afro-americana</li>
+                        <li>Antologias</li>
+                        <li>Infantil</li>
+                        <li>Ficção histórica</li>
+                        <li>Ficção científica</li>
+                    </ul>
+                    <ul>
+                        <li>Humor e comédia</li>
+                        <li>Ficção LGBTQ</li>
+                        <li>Ficção Literária</li>
+                        <li>Realismo mágico</li>
+                        <li>Mashups</li>
+                        <li>Mistério e crime</li>
+                    </ul>
+                    <ul>
+                        <li>Contos</li>
+                        <li>Temáticas e motivações</li>
+                        <li>Thriller e Suspense</li>
+                        <li>Ficção Feminina</li>
+                        <li>Jovem adulto</li>
+                        <li>Romance</li>
+                    </ul>
+                </div>
+                <div id="categorias2" class="d-flex justify-content-center justify-content-evenly">
+                    <ul>
+                        <li>Agricultura</li>
+                        <li>Biografias e memórias</li>
+                        <li>Computadores e Internet</li>
+                        <li>Educação e Referência</li>
+                        <li>Entretenimento</li>
+                        <li>Matemática e Ciências</li>
+                    </ul>
+                    <ul>
+                        <li>Fotografia</li>
+                        <li>Religião e Espiritualidade</li>
+                        <li>Autoajuda e autoaprimoramento</li>
+                        <li>Sexo e Relacionamentos</li>
+                        <li>Tecnologia</li>
+                    </ul>
+                </div>
             </section>
 
             <!-- Sua Experiencia -->
-            <section id="experienciaSection">
-                <h3 id=""></h3>
-            </section>
-
-            <!-- Envie um livro -->
-            <section id="enviar-livroSection">
-
+            <section id="experienciaSection" class="container-fluid m-0 mt-5 p-0 text-center">
+                <h3 id="experiencia-titulo" class="pt-5">Sua experiência na Estante Virtual</h3>
+                <div class="d-flex mt-5">
+                    <div id="info-exp">
+                        <img src="images/exp-home.png" alt="">
+                        <p>Democratização do conhecimento</p>
+                            <p>Promovemos a leitura ao oferecer a diversidade literária a preços econômicos para leitores de todas as regiões do Brasil.</p>
+                    </div>
+                    <div id="info-exp2">
+                        <img src="images/exp-home2.png" alt="">
+                        <p>Garantimos sua segurança</p>
+                            <p>Por meio de livreiros qualificados, inovação e plataforma tecnológica, garantimos asegurança de todas as transações realizadas no site</p>
+                    </div>
+                    <div id="info-exp3">
+                        <img src="images/exp-home3.png" alt="">
+                        <p>Propagação da cultura do reuso</p>
+                            <p>Valorizamos o consumo consciente e a bibliodiversidade, conectando vendedores e leitores na maior rede de apaixonados por livros.</p>
+                    </div>
+                </div>
             </section>
         </main>
+
+        <footer class="d-flex">
+            <div id="contatos">
+                <span>Endereço: Q 564 Rua 85L</span><br>
+                <span>Celular: (61) 87151 8464</span>
+            </div>
+            <div id="direitos" class="d-flex justify-content-center align-items-center">
+                <h6>Todos os direitos reservados a @Estante-Virtual</h6>
+            </div>
+        </footer>
     </div>
 
     <!-- MODAL HOME -->
