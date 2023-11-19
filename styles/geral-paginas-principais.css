@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Inter:wght@400;500;600&family=Joti+One&family=Londrina+Solid&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Londrina Solid';
+}
+
+:root {
+    --marrom: #44342F;
+    --vinho: #6B2929;
+    --marrom-claro: #DDB38D;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    background-color: var(--marrom);
+    width: 100%;
+}
+
+#logo {
+    width: 90px;
+    height: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 28px;
+    margin-left: 1rem;
+}
+
+footer {
+    width: 100%;
+    background-color: var(--marrom);
+    color: white;
+    padding: 1.5rem 0;
+}
+
+#contatos {
+    color: rgba(255, 255, 255, 0.411);
+}
+
+#direitos {
+    margin: 0 auto;
+}

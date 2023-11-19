@@ -1,0 +1,154 @@
+#linha-banner {
+    border: solid 4px white;
+    border-radius: 20px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+#titulo-sobre-banner {
+    color: rgba(0, 0, 0, 0.349);
+}
+
+#info {
+    width: 50%;
+    font-size: 24px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#info > p {
+    padding: 0 6rem;
+}
+
+#img-info {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-info > img {
+    width: 50%;
+}
+
+
+#sobre2 {
+    flex-direction: row-reverse;
+}
+
+#info2 {
+    width: 50%;
+    font-size: 24px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#info2 > p {
+    padding: 0 6rem;
+}
+
+#img-info2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-info2 > img {
+    width: 40%;
+}
+
+#sobre3 {
+    background-color: var(--marrom);
+    color: white;
+}
+
+#info3 {
+    width: 50%;
+    font-size: 24px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#info3 > p {
+    padding: 0 6rem;
+}
+
+#info3-2 {
+    width: 50%;
+    font-size: 24px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#info3-2 > p {
+    padding: 0 6rem;
+}
+
+#info4 {
+    width: 50%;
+    font-size: 24px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#info4 > p {
+    padding: 0 6rem;
+}
+
+#img-info4 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-info4 > img {
+    width: 45%;
+}
+
+#sobre5 {
+    background-color: var(--marrom-claro);
+}
+
+#info-img{
+    flex-direction: row-reverse;
+}
+
+#info5 {
+    width: 50%;
+    font-size: 24px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#info5 > p {
+    padding: 0 6rem;
+}
+
+#img-info5 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-info5 > img {
+    width: 40%;
+}
