@@ -2,14 +2,14 @@
     width: 70%;
 }
 
-#categorias1, #categorias2 {
-    color: var(--vinho);
+#info-exp, #info-exp2, #info-exp3 {
+    width: 33,33%;
+    padding: 0 2rem;
     font-size: 24px;
-    margin-top: 3rem;
 }
 
-li {
-    cursor: pointer;
+#info-exp > p, #info-exp2 > p, #info-exp3 > p {
+    padding-top: 15px;
 }
 
 #mais-vendidosSection {
@@ -47,15 +47,35 @@ li {
     color: black;
 }
 
-
-
-#info-exp, #info-exp2, #info-exp3 {
-    width: 33,33%;
-    padding: 0 2rem;
+#categorias1, #categorias2 {
+    color: var(--vinho);
     font-size: 24px;
+    margin-top: 3rem;
 }
 
-#info-exp > p, #info-exp2 > p, #info-exp3 > p {
-    padding-top: 15px;
+li {
+    cursor: pointer;
 }
 
+@media screen and (max-width : 768px) {
+    #experiencia {
+        flex-wrap: wrap;
+    }
+
+    #categorias1, #categorias2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width : 420px) {
+    #categorias1, #categorias2 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width : 1380px){
+    .carousel-item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

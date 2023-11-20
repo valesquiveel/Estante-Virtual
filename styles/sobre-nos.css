@@ -9,6 +9,11 @@
     color: rgba(0, 0, 0, 0.349);
 }
 
+#sobre {
+    display: flex;
+    flex-wrap: wrap !important;
+}
+
 #info {
     width: 50%;
     font-size: 24px;
@@ -151,4 +156,22 @@
 
 #img-info5 > img {
     width: 40%;
+}
+
+@media screen and (max-width : 920px) {
+
+    #sobre, #info-img, #sobre3, #quatro, #info-img2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #info > p, #info2 > p, #info3 > p, #info3-2 > p, #info4 > p, #info5 > p {
+        padding: 0;
+        text-align: center;
+    }
+
+    #info, #info2, #info3, #info3-2, #info4, #info5 {
+        width: 80%;
+    }
 }
