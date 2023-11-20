@@ -30,6 +30,28 @@ header {
     margin-left: 15px;
 }
 
+#LeC {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 423px;
+    height: 62px;
+    border-radius: 10px;
+    background: #44342F;
+    font-size: 28px;
+    margin-right: 86px;
+}
+
+#login-header {
+    text-decoration: none;
+    color: #fff;
+}
+
+#cadastro-header {
+    text-decoration: none;
+    color: #fff;
+}
+
 .nav-link {
     color: white;
     font-size: 28px;

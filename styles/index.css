@@ -20,11 +20,6 @@ li {
     color: white;
 }
 
-#cards {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .card {
     display: flex;
     align-items: center;
@@ -51,6 +46,8 @@ li {
     background-color: var(--marrom-claro);
     color: black;
 }
+
+
 
 #info-exp, #info-exp2, #info-exp3 {
     width: 33,33%;
