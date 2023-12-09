@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.btn.btn-success').on('click', function() {
+    $('#addCar-1').on('click', function() {
 
         var itemInfo = `
         <div style="display: flex;  align-items: center; border: solid 1px gray; border-radius: 5px; width: 70%; margin-bottom: 20px;" id="carrinho-item">
@@ -20,15 +20,6 @@ $(document).ready(function() {
     });
 });
 
-$(document).ready(function() {
-    $('#menuDropdown').hover(
-        function() {
-            $(this).addClass('show');
-            $('ul.dropdown-menu', this).addClass('show');
-        },
-        function() {
-            $(this).removeClass('show');
-            $('ul.dropdown-menu', this).removeClass('show');
-        }
-    );
-});
+$("#comprar").on("click", function(){
+    window.location.href = '../pages/fimCompra.html';
+})
