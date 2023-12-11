@@ -24,8 +24,13 @@
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="sobre-nos.html">Sobre Nós</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="sobre-nos.html" id="navbarDropdown" role="" data-bs-toggle="" aria-expanded="false">Sobre Nós</a>
+                                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#"></a></li>
+                                  <li><a class="dropdown-item" href="#"></a></li>
+                                  <li><a class="dropdown-item" href="#"></a></li>
+                                </ul> -->
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="catalogo.html">Catálogo</a>
@@ -34,8 +39,8 @@
                     <span class="navbar-text">
                         <!-- login e cadastro do header -->
                         <div id="LeC">
-                            <a id="login-header" href="pages/login.html">Login</a>
-                            <a id="cadastro-header" href="pages/cadastro.html">Cadastre-se</a>
+                            <a id="login-header" href="login.html">Login</a>
+                            <a id="cadastro-header" href="cadastro.html">Cadastre-se</a>
                         </div>
                     </span>
                   </div>
@@ -293,7 +298,7 @@
             </section>
 
             <!-- ROMANCE -->
-            <section id="section1-livros-catalogo" class="container-fluid m-0 p-0 text-center w-100">
+            <section id="section3-livros-catalogo" class="container-fluid m-0 p-0 mb-5 text-center w-100">
                 <div id="carouselExampleControlsNoTouching2" class="carousel slide carousel-fade" data-bs-touch="false" data-bs-interval="false">
                     <div class="carousel-inner">
                         <h1 id="titulo1-livros-catalogo" class="p-5">Romance</h1>
@@ -543,11 +548,12 @@
      <!-- OFFCANVAS -->
      <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Colored with scrolling</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Carrinho</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
             <p id="offcanvas1"></p>
+            <button type="button" id="comprar" class="btn btn-success">FINALIZAR COMPRA</button>
         </div>
     </div>
 
@@ -567,7 +573,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button id="addCar-1" type="button" class="btn btn-success" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
+                    <button" type="button" class="btn btn-success btnAdd" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
                 </div>
             </div>
         </div>
@@ -587,7 +593,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button id="addCar-1" type="button" class="btn btn-success" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
+                    <button type="button" class="btn btn-success btnAdd" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
                 </div>
             </div>
         </div>
@@ -607,7 +613,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button id="addCar-1" type="button" class="btn btn-success" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
+                    <button type="button" class="btn btn-success btnAdd" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
                 </div>
             </div>
         </div>
@@ -627,7 +633,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button id="addCar-1" type="button" class="btn btn-success" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
+                    <button type="button" class="btn btn-success btnAdd" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
                 </div>
             </div>
         </div>
@@ -650,7 +656,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button id="addCar-1" type="button" class="btn btn-success" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
+                    <button type="button" class="btn btn-success btnAdd" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
                 </div>
             </div>
         </div>
@@ -670,7 +676,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button id="addCar-1" type="button" class="btn btn-success" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
+                    <button type="button" class="btn btn-success btnAdd" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
                 </div>
             </div>
         </div>
@@ -690,7 +696,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button id="addCar-1" type="button" class="btn btn-success" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
+                    <button type="button" class="btn btn-success btnAdd" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
                 </div>
             </div>
         </div>
@@ -710,7 +716,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button id="addCar-1" type="button" class="btn btn-success" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
+                    <button  type="button" class="btn btn-success btnAdd" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Adicionar no Carrinho</button>
                 </div>
             </div>
         </div>

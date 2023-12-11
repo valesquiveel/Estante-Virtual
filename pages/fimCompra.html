@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bem-vindo(a) ao seu Estante Virtual</title>
+    <title>Pagamento</title>
     <link rel="shortcut icon" href="../images/Diseño_sin_título__1_-removebg-preview 1.svg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="">
@@ -22,36 +22,43 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Home
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <li><a class="dropdown-item" href="#">Action</a></li>
-                                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                              </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="pages/sobre-nos.html">Sobre Nós</a>
+                                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="sobre-nos.html" id="navbarDropdown" role="" data-bs-toggle="" aria-expanded="false">Sobre Nós</a>
+                                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#"></a></li>
+                                  <li><a class="dropdown-item" href="#"></a></li>
+                                  <li><a class="dropdown-item" href="#"></a></li>
+                                </ul> -->
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="pages/catalogo.html">Catálogo</a>
+                                <a class="nav-link" href="catalogo.html">Catálogo</a>
                             </li>
                         </ul>
                     <span class="navbar-text">
                         <!-- login e cadastro do header -->
                         <div id="LeC">
-                            <a id="login-header" href="pages/login.html">Login</a>
-                            <a id="cadastro-header" href="pages/cadastro.html">Cadastre-se</a>
+                            <a id="login-header" href="login.html">Login</a>
+                            <a id="cadastro-header" href="cadastro.html">Cadastre-se</a>
                         </div>
                     </span>
+                  </div>
                 </div>
-            </div>
-        </nav>
-    </header>
+              </nav>
+        </header>
 
-    <main></main>
+    <main class="container-fluid m-0 p-0">
+        <h1 class="text-center mt-5">ESCOLHA SUA FORMA DE PAGAMENTO</h1>
+        <div id="forma-pagamento" class="container-fluid m-0 p-0 my-5 d-flex justify-content-center justify-content-around">
+            <button type="button" id="CC">Cartão de Crédito ou Débito</button>
+            <button type="button" id="pix">PIX</button>
+            <button type="button" id="boleto">BOLETO</button>
+        </div>
+        <form id="cDc">
+        </form>
+    </main>
 
     <footer class="d-flex w-100">
         <div id="contatos">
@@ -63,10 +70,9 @@
         </div>
     </footer>
 </div>
-
-<script src="../js/jquery-3.7.1.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../js/jquery-3.7.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="../js/forms.js"></script>
 </body>
 </html>

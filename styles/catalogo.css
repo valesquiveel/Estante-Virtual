@@ -20,7 +20,7 @@ input, #pesquisa {
     color: black;
 }
 
-#section1-livros-catalogo, #section2-livros-catalogo, #section3-livros-catalogo, #section4-livros-catalogo {
+#section3-livros-catalogo, #section4-livros-catalogo {
     background-color: var(--marrom);
 }
 
@@ -28,14 +28,19 @@ input, #pesquisa {
     color: white;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: var(--marrom);
+}
+
 .card {
+    width: 100% !important;
     display: flex;
     align-items: center;
     border-radius: 30px;
 }
 
 .card > img {
-    width: 15rem;
+    width: 85%;
     padding-top: 1.5rem;
 }
 
@@ -66,11 +71,4 @@ input, #pesquisa {
     }
 
     
-}
-
-@media screen and (max-width : 1380px){
-    .carousel-item {
-        display: flex;
-        flex-wrap: wrap;
-    }
 }

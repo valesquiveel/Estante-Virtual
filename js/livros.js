@@ -1,5 +1,6 @@
-$(document).ready(function() {
-    $('#addCar-1').on('click', function() {
+var add = $('.btnAdd')
+
+add.on('click', function() {
 
         var itemInfo = `
         <div style="display: flex;  align-items: center; border: solid 1px gray; border-radius: 5px; width: 70%; margin-bottom: 20px;" id="carrinho-item">
@@ -11,14 +12,12 @@ $(document).ready(function() {
         </div>
         `;
 
-        // Atualiza o conteúdo do parágrafo dentro do offCanvas
-        document.getElementById('offcanvas1').innerHTML += itemInfo;
+        document.querySelector('#offcanvas1').innerHTML += itemInfo;
 
-        // Abre o offCanvas
         var offcanvas = new bootstrap.Offcanvas($('#offcanvasScrolling'));
         offcanvas.show();
     });
-});
+
 
 $("#comprar").on("click", function(){
     window.location.href = '../pages/fimCompra.html';

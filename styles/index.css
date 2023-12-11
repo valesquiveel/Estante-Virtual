@@ -1,15 +1,15 @@
 #img-banner {
-    width: 70%;
+    width: 100%;
 }
 
-#info-exp, #info-exp2, #info-exp3 {
-    width: 33,33%;
-    padding: 0 2rem;
+#categorias1, #categorias2 {
+    color: var(--vinho);
     font-size: 24px;
+    margin-top: 3rem;
 }
 
-#info-exp > p, #info-exp2 > p, #info-exp3 > p {
-    padding-top: 15px;
+li {
+    cursor: pointer;
 }
 
 #mais-vendidosSection {
@@ -21,13 +21,14 @@
 }
 
 .card {
+    width: 100% !important;
     display: flex;
     align-items: center;
     border-radius: 30px;
 }
 
 .card > img {
-    width: 15rem;
+    width: 85%;
     padding-top: 1.5rem;
 }
 
@@ -47,14 +48,15 @@
     color: black;
 }
 
-#categorias1, #categorias2 {
-    color: var(--vinho);
+#info-exp, #info-exp2, #info-exp3 {
+    width: 33,33%;
+    padding: 0 2rem;
     font-size: 24px;
-    margin-top: 3rem;
+    padding-bottom: 3rem;
 }
 
-li {
-    cursor: pointer;
+#info-exp > p, #info-exp2 > p, #info-exp3 > p {
+    padding-top: 15px;
 }
 
 @media screen and (max-width : 768px) {
@@ -70,12 +72,5 @@ li {
 @media screen and (max-width : 420px) {
     #categorias1, #categorias2 {
         font-size: 14px;
-    }
-}
-
-@media screen and (max-width : 1380px){
-    .carousel-item {
-        display: flex;
-        flex-wrap: wrap;
     }
 }
