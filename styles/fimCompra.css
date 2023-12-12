@@ -87,3 +87,9 @@ div > div {
     color: #44342F;
     cursor: pointer;
 }
+
+@media screen and (max-width : 900px) {
+    #img-codigo {
+        width: 55%;
+    } 
+}
