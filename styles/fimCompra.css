@@ -1,0 +1,89 @@
+main {
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+}
+
+#CC, #pix, #boleto {
+    width: 25%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--marrom-claro);
+;
+}
+
+#cDc {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#cDc > div {
+    display: flex;
+}
+
+#cDc > input, div > input {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    border: solid 1.5px ;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+div > div {
+    width: 50%;
+}
+
+#validade_cartao, #cpf {
+    border-radius: 10px 0 0 10px;
+}
+
+#cvv_cartao, #email {
+    border-radius: 0 10px 10px 0;
+}
+
+#btn {
+    background: #44342F;
+    color: #FFF;
+    border: none !important;
+}
+
+#btn:hover {
+    background-color: #f7cdab;
+    color: #44342F;
+    cursor: pointer;
+}
+
+#gerar-codigo {
+    background: #44342F;
+    color: #FFF;
+    border: none !important;
+}
+
+#gerar-codigo:hover {
+    background-color: #f7cdab;
+    color: #44342F;
+    cursor: pointer;
+}
+
+#codigo{
+    text-align: center;
+}
+
+#img-codigo {
+    width: 35%;
+}
+
+#gerar-boleto {
+    background: #44342F;
+    color: #FFF;
+    border: none !important;
+}
+
+#gerar-boleto:hover {
+    background-color: #f7cdab;
+    color: #44342F;
+    cursor: pointer;
+}
